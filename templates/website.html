@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <div>
+            <h1 text-align="center">Dog Breed Classification</h1>
+        </div>
+    </head>
+
+    <body>
+        <div>
+            This is a sample project of a image Classification machine learning model deployed utilizing Flask. 
+            You can upload your dog images to predict the dog classification.
+        </div>
+        <form name="form", method="POST", style="text-align: center;", enctype="multipart/form-data">
+        <br>
+        <label> Image: 
+            <input type="file" name="image" accept="image/jpeg" />
+        </label>
+        <button class="submit-btn" type="submit">Run</button>
+        </form>
+
+        <!-- p style="text-align: center;">{{ fig_output }}</p-->
+        <p >{{ output }}</p>
+    </body>
+
+</html>
