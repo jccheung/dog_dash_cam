@@ -39,6 +39,8 @@ and you should see the production server starting on your local machine
 
 Upload your dog image to the prediction
 
+![startup_image](start_up.JPG)
+
 And have the server return and tell you your dog breed.
 
 ### Future Works
@@ -47,4 +49,5 @@ The application is trained on [stanford dogs breed dataset](http://vision.stanfo
 
 Manually annotating the dog breed dataset for my algorithm and inserting transformations takes time, so not all of the dog breeds are available at the moment, i may revisit this in the future and include more classes into the prediction service
 
+![full_output](output.png)
 The application actually returns the full image including the bounding boxes to the user as an output, however I have been unable to have this show and run successfully using flask
