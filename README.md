@@ -1,13 +1,13 @@
 <h3 text-align="center">Dog Image Object Classification</h3>
 
 <p>
-This project was completed as the capstone of the USCD Machine Learning Bootcamp. The goal of this project is to demonstrate the usage of a trained image classification algorithm using Flask and Python. 
+This project was completed as the capstone of the USCD Machine Learning Bootcamp. The goal of this project is to demonstrate the usage of a trained image classification algorithm using Flask and Python. Users can upload their images and have the algorithm detect the dog breed.
 
 </p>
 
 ### Built With
-[![Python][python.org]]
-[![Flask][flask.palletsprojects.com/en/2.2.x/]]
+* [![Python][python.org]]
+* [![Flask][flask.palletsprojects.com/en/2.2.x/]]
 
 
 <!-- GETTING STARTED -->
